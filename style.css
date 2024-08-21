@@ -39,7 +39,7 @@ p {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
-    padding: 80px 240px 134px 240px;
+    padding: 80px 240px 160px 240px;
     gap: 64px;
 }
 
@@ -65,6 +65,7 @@ p {
     padding: 8px 16px;
     width: 96px;
     border-radius: 8px;
+    margin-top: 4px;
 }
 
 .hero-banner .fake-image {
@@ -77,3 +78,122 @@ p {
     color: #f9faf8;
 }
 
+.rando-info {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 144px;
+}
+
+.rando-info h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 48px 0px 48px 0px;
+}
+
+.group-cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 0 0 168px;
+}
+
+.card .empty {
+    height: 168px;
+    width: 168px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 16px;
+}
+
+.card p {
+    text-align: center;
+    color: gray;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 128px 0px 128px 0px;
+}
+
+.testimonial .text {
+    display: flex;
+    width: 816px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.testimonial h2 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.testimonial h6{
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 112px 0px 112px 0px;
+}
+
+.call-to-action .content {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 48px 96px;
+    gap: 160px;
+    border-radius: 8px;
+    
+}
+
+.call-to-action .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-to-action h6{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-to-action button {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 120px;
+    border-width: 2px;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 104px;
+    background-color: #1f2937;
+}
